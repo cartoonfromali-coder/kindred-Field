@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Food | Kindred Field</title>
+  <meta name="description" content="Explore approachable cooking ideas, meal planning inspiration, kitchen organisation tips, and everyday food guides from Kindred Field.">
+
+  <style>
+    * { box-sizing: border-box; }
+
+    body {
+      margin: 0;
+      background: #f7f9f6;
+      color: #4c574f;
+      font-family: Arial, Helvetica, sans-serif;
+      line-height: 1.6;
+    }
+
+    a {
+      color: inherit;
+      text-decoration: none;
+    }
+
+    .page-wrap {
+      max-width: 1120px;
+      margin: 0 auto;
+      padding: 70px 24px 90px;
+    }
+
+    .intro {
+      max-width: 720px;
+      margin-bottom: 45px;
+    }
+
+    .eyebrow {
+      margin: 0 0 10px;
+      color: #658064;
+      font-size: 12px;
+      font-weight: 800;
+      letter-spacing: 1.5px;
+      text-transform: uppercase;
+    }
+
+    h1 {
+      margin: 0 0 15px;
+      color: #294032;
+      font-size: 42px;
+      line-height: 1.15;
+      letter-spacing: -1px;
+    }
+
+    .intro p {
+      margin: 0;
+      color: #727c74;
+      font-size: 16px;
+    }
+
+    .article-grid {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 22px;
+    }
+
+    .article-card {
+      display: flex;
+      flex-direction: column;
+      min-height: 260px;
+      padding: 28px;
+      background: #fff;
+      border: 1px solid #dee5da;
+      border-radius: 16px;
+      transition: transform .2s ease, box-shadow .2s ease;
+    }
+
+    .article-card:hover {
+      transform: translateY(-3px);
+      box-shadow: 0 12px 30px rgba(41, 64, 50, .07);
+    }
+
+    .article-number {
+      margin-bottom: 18px;
+      color: #91a18f;
+      font-size: 12px;
+      font-weight: 800;
+    }
+
+    .article-card h2 {
+      margin: 0 0 12px;
+      color: #294032;
+      font-size: 20px;
+      line-height: 1.3;
+    }
+
+    .article-card p {
+      margin: 0 0 22px;
+      color: #727c74;
+      font-size: 14px;
+    }
+
+    .read-more {
+      margin-top: auto;
+      color: #658064;
+      font-size: 13px;
+      font-weight: 800;
+    }
+
+    @media (max-width: 900px) {
+      .article-grid { grid-template-columns: repeat(2, 1fr); }
+    }
+
+    @media (max-width: 600px) {
+      .page-wrap { padding: 45px 18px 65px; }
+      h1 { font-size: 34px; }
+      .article-grid { grid-template-columns: 1fr; }
+      .article-card { min-height: auto; }
+    }
+  </style>
+</head>
+
+<body>
+
+  <div id="site-header"></div>
+
+  <main class="page-wrap">
+
+    <section class="intro">
+      <p class="eyebrow">Kindred Field</p>
+      <h1>Food</h1>
+      <p>
+        Approachable meal ideas, kitchen routines, simple cooking inspiration,
+        and practical food notes for everyday life.
+      </p>
+    </section>
+
+    <section class="article-grid">
+
+      <a href="food-how-to-create-a-simple-meal-routine.html" class="article-card">
+        <span class="article-number">01</span>
+        <h2>How to Create a Simple Meal Routine</h2>
+        <p>A flexible approach to planning meals without making your week feel overly structured.</p>
+        <span class="read-more">Read Article →</span>
+      </a>
+
+      <a href="food-easy-ways-to-use-fresh-herbs.html" class="article-card">
+        <span class="article-number">02</span>
+        <h2>Easy Ways to Use Fresh Herbs</h2>
+        <p>Simple ideas for adding fresh herbs to everyday dishes and making familiar meals more interesting.</p>
+        <span class="read-more">Read Article →</span>
+      </a>
+
+      <a href="food-what-to-cook-when-you-have-little-time.html" class="article-card">
+        <span class="article-number">03</span>
+        <h2>What to Cook When You Have Little Time</h2>
+        <p>Quick meal approaches for evenings when your schedule leaves very little room for cooking.</p>
+        <span class="read-more">Read Article →</span>
+      </a>
+
+      <a href="food-making-breakfast-a-little-more-interesting.html" class="article-card">
+        <span class="article-number">04</span>
+        <h2>Making Breakfast a Little More Interesting</h2>
+        <p>Easy ways to move beyond the same morning meal while keeping preparation simple.</p>
+        <span class="read-more">Read Article →</span>
+      </a>
+
+      <a href="food-kitchen-staples-that-earn-their-space.html" class="article-card">
+        <span class="article-number">05</span>
+        <h2>Kitchen Staples That Earn Their Space</h2>
+        <p>Consider which everyday ingredients deserve a permanent place in a practical kitchen.</p>
+        <span class="read-more">Read Article →</span>
+      </a>
+
+      <a href="food-simple-lunches-for-home-working-days.html" class="article-card">
+        <span class="article-number">06</span>
+        <h2>Simple Lunches for Home-Working Days</h2>
+        <p>Easy midday meals that fit around a busy schedule without relying on complicated preparation.</p>
+        <span class="read-more">Read Article →</span>
+      </a>
+
+      <a href="food-how-to-make-a-grocery-list-that-works.html" class="article-card">
+        <span class="article-number">07</span>
+        <h2>How to Make a Grocery List That Works</h2>
+        <p>A useful method for shopping with a clearer idea of what you need and how you will use it.</p>
+        <span class="read-more">Read Article →</span>
+      </a>
+
+      <a href="food-easy-dinner-ideas-for-the-whole-house.html" class="article-card">
+        <span class="article-number">08</span>
+        <h2>Easy Dinner Ideas for the Whole House</h2>
+        <p>Flexible meal concepts that can work when different people want something familiar and satisfying.</p>
+        <span class="read-more">Read Article →</span>
+      </a>
+
+      <a href="food-how-to-store-everyday-ingredients-better.html" class="article-card">
+        <span class="article-number">09</span>
+        <h2>How to Store Everyday Ingredients Better</h2>
+        <p>Practical storage habits that can help keep commonly used ingredients organised and accessible.</p>
+        <span class="read-more">Read Article →</span>
+      </a>
+
+      <a href="food-small-cooking-habits-that-save-effort.html" class="article-card">
+        <span class="article-number">10</span>
+        <h2>Small Cooking Habits That Save Effort</h2>
+        <p>Little changes to preparation and cleanup that can make regular cooking feel much easier.</p>
+        <span class="read-more">Read Article →</span>
+      </a>
+
+      <a href="food-simple-ideas-for-sharing-a-meal.html" class="article-card">
+        <span class="article-number">11</span>
+        <h2>Simple Ideas for Sharing a Meal</h2>
+        <p>Thoughtful food ideas for relaxed gatherings, family meals, and casual evenings together.</p>
+        <span class="read-more">Read Article →</span>
+      </a>
+
+      <a href="food-how-to-make-your-kitchen-feel-more-useful.html" class="article-card">
+        <span class="article-number">12</span>
+        <h2>How to Make Your Kitchen Feel More Useful</h2>
+        <p>Focus on layout, habits, and everyday tools that make the kitchen easier to enjoy and use.</p>
+        <span class="read-more">Read Article →</span>
+      </a>
+
+    </section>
+
+  </main>
+
+  <div id="site-footer"></div>
+
+  <script src="header.js"></script>
+  <script src="footer.js"></script>
+
+</body>
+</html>
